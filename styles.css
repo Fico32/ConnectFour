@@ -1,0 +1,21 @@
+﻿.grid-container {
+    display: grid;
+    background-color: #304A9F;
+    width : fit-content;
+    height: fit-content;
+}
+
+.grid-item {
+   
+}
+
+.gameOver {
+    height: 100% !important;
+    width: 100% !important;
+    padding-top: 50%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+}
